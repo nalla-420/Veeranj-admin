@@ -1,6 +1,6 @@
 import { useState, useEffect, createContext, useContext } from "react";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const API = import.meta.env.VITE_API_URL || "https://veeranj-backend-npbf.onrender.com/api";
 
 const AuthCtx = createContext(null);
 const useAuth = () => useContext(AuthCtx);
